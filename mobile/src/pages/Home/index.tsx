@@ -1,25 +1,68 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, ChangeEvent } from 'react';
 import { Feather as Icon } from '@expo/vector-icons';
 import { StyleSheet, ImageBackground, View, Image, Text, TextInput, KeyboardAvoidingView, Platform } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
+import RNPickerSelect from 'react-native-picker-select';
+import axios from 'axios';
+
+interface IBGEUFSResponse {
+  sigla: string;
+}
+
+interface IBGECitiesResponse {
+  nome: string;
+}
 
 const Home = () => {
-  const [uf, setUf] = useState('');
-  const [city, setCity] = useState('');
+  const [ufs, setUfs] = useState<String[]>([]);
+  const [cities, setCities] = useState<String[]>([]);
   const navigation = useNavigation();
+
+  const [selectedUf, setSelectedUf] = useState('0');
+  const [selectedCity, setSelectedCity] = useState('0');
+
+  useEffect(() => {
+    axios.get<IBGEUFSResponse[]>(
+      'https://servicodados.ibge.gov.br/api/v1/localidades/estados'
+    ).then(res => {
+      const ufsInitials = res.data.map(uf => uf.sigla);
+      setUfs(ufsInitials);
+    });
+  }, []);
+
+  useEffect(() => {
+    axios.get<IBGECitiesResponse[]>(
+      `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${selectedUf}/municipios`
+    ).then(res => {
+      const cityNames = res.data.map(city => city.nome);
+      setCities(cityNames);
+    });
+  }, [selectedUf]);
 
   function handleNavigateToPoints() {
     navigation.navigate('Points', {
-      uf, city
+      uf: selectedUf,
+      city: selectedCity
     });
+  }
+
+  function handleSelectUf(uf: string) {
+    setSelectedUf(uf);
+  }
+
+  function handleSelectCity(city: string) {
+    setSelectedCity(city);
   }
 
   return (
     <KeyboardAvoidingView
       style={{ flex: 1 }}
-      behavior={Platform.OS === 'ios'
-        ? 'padding' : undefined}
+      behavior={
+        Platform.OS === 'ios'
+          ? 'padding' 
+          : undefined
+      }
     >
       <ImageBackground
         source={require('../../assets/home-background.png')}
@@ -35,21 +78,33 @@ const Home = () => {
         </View>
 
         <View style={styles.footer}>
-          <TextInput
-            style={styles.input}
-            placeholder='Digite uma UF'
-            maxLength={2}
-            autoCapitalize='characters'
-            autoCorrect={false}
-            value={uf}
-            onChangeText={setUf}
+          <RNPickerSelect
+            placeholder={{
+              label: 'Selecione um estado (UF)',
+              value: '0'
+            }}
+            style={pickerSelectStyles}
+            onValueChange={handleSelectUf}
+            items={
+              ufs.map(uf => ({ label: String(uf), value: String(uf) }))
+            }
+            Icon={() => (
+              <Icon name='chevron-down' size={24} color='#6C6C80' />
+            )}
           />
-          <TextInput
-            style={styles.input}
-            placeholder='Digite uma cidade'
-            autoCorrect={false}
-            value={city}
-            onChangeText={setCity}
+          <RNPickerSelect
+            placeholder={{
+              label: 'Selecione uma cidade',
+              value: '0'
+            }}
+            style={pickerSelectStyles}
+            onValueChange={handleSelectCity}
+            items={
+              cities.map(city => ({ label: String(city), value: String(city) }))
+            }
+            Icon={() => (
+              <Icon name='chevron-down' size={24} color='#6C6C80' />
+            )}
           />
           <RectButton
             style={styles.button}
@@ -138,5 +193,32 @@ const styles = StyleSheet.create({
     color: '#FFF',
     fontFamily: 'Roboto_500Medium',
     fontSize: 16,
+  }
+});
+
+const pickerSelectStyles = StyleSheet.create({
+  inputIOS: {
+    height: 60,
+    backgroundColor: '#FFF',
+    borderRadius: 10,
+    marginBottom: 8,
+    paddingHorizontal: 24,
+    fontSize: 16,
+    paddingVertical: 12,
+    paddingRight: 30,
+  },
+  inputAndroid: {
+    height: 60,
+    backgroundColor: '#FFF',
+    borderRadius: 10,
+    marginBottom: 8,
+    paddingHorizontal: 24,
+    fontSize: 16,
+    paddingVertical: 12,
+    paddingRight: 30,
+  },
+  iconContainer: {
+    top: 18,
+    right: 24,
   }
 });
