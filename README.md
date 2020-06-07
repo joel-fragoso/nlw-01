@@ -44,7 +44,7 @@ Um evento online e totalmente gratuito que vai te ajudar a dar o próximo passo
 
 A coleta seletiva de lixo é de extrema importância para a sociedade. Além de gerar renda para milhões de pessoas e economia para as empresas, também significa uma grande vantagem para o meio ambiente, uma vez que diminui a poluição dos solos e rios. Dessa maneira possibilitamos o maior aproveitamento do resíduo, que antes era descartado e como consequência do seu não aproveitamento aumentaria a quantidade de lixo causando grandes problemas ambientais.
 
-Pensando nisso, nós desenvolvemos o Ecoleta, uma aplicação para fazer a ponte entre os pontos de coletas e as pessoas.
+Pensando nisso, nós desenvolvemos o Ecoleta, uma aplicação para fazer a ponte entre os pontos de coleta e as pessoas.
 
 <p align="center">
     <img alt="Example" title="Example" src="./assets/ecoleta-web.png"  height="400px" />
