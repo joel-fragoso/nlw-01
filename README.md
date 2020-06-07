@@ -20,6 +20,7 @@
   <a href="https://github.com/joel-fragoso/nlw-01.git" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
+<hr>
 <p align="center">
   <a href="#o-que-é-o-next-level-week">Next Level Week</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -28,6 +29,7 @@
   <a href="#como-usar">Como usar</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#licença">Licença</a>
 </p>
+<hr>
 
 ## O que é o Next Level Week?
 
