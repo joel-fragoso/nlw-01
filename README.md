@@ -17,7 +17,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/joel-fragoso/nlw-01.git" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://insomnia.rest/run/?label=Next%20Level%20Week%20%2301&uri=https%3A%2F%2Fgithub.com%2Fjoel-fragoso%2Fnlw-01%2Ftree%2Fmaster%2Fserver" target="_blank">
+    <img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia">
+  </a>
 </p>
 
 <hr>
