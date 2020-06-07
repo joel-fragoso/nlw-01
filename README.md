@@ -2,7 +2,7 @@
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/logo.svg" width="160px" />
 </p>
 
-<h3 align="center">Next Level Week #1</h3>
+<h3 align="center">Next Level Week #01</h3>
 
 <p align="center">
   <img alt="GitHub language count" src="https://github.com/joel-fragoso/nlw-01.git">
@@ -44,7 +44,7 @@ Um evento online e totalmente gratuito que vai te ajudar a dar o próximo passo
 
 A coleta seletiva de lixo é de extrema importância para a sociedade. Além de gerar renda para milhões de pessoas e economia para as empresas, também significa uma grande vantagem para o meio ambiente, uma vez que diminui a poluição dos solos e rios. Dessa maneira possibilitamos o maior aproveitamento do resíduo, que antes era descartado e como consequência do seu não aproveitamento aumentaria a quantidade de lixo causando grandes problemas ambientais.
 
-Pensando nisso, nós desenvolvemos o Ecoleta, uma aplicação para fazer a ponte entre os pontos de coleta e as pessoas.
+O Ecoleta é uma aplicação que ajuda pessoas a encontrem pontos de coleta de forma eficiente.
 
 <p align="center">
     <img alt="Example" title="Example" src="./assets/ecoleta-web.png"  height="400px" />
@@ -53,7 +53,7 @@ Pensando nisso, nós desenvolvemos o Ecoleta, uma aplicação para fazer a ponte
 
 ## Tecnologias
 
-This project was developed with the following technologies:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js][nodejs]
 - [TypeScript][typescript]
