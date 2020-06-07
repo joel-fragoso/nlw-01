@@ -64,7 +64,7 @@ Confira o layout no [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
 
 ## Como usar
 
-Para clonar e executar esta aplicação, você vai percisar do [Git](https://git-scm.com) e do [Node.js][nodejs] instalado no seu computador.
+Para clonar e executar esta aplicação, você vai percisar do [Git](https://git-scm.com) e do [Node.js][nodejs] instalados no seu computador.
 
 ### Clonando o Projeto
 ```bash
