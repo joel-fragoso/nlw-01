@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <a href="#-o-que-é-o-next-level-week">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -42,12 +42,14 @@ Um evento online e totalmente gratuito que vai te ajudar a dar o próximo passo
 
 ## Projeto
 
-Ecoleta
+A coleta seletiva de lixo é de extrema importância para a sociedade. Além de gerar renda para milhões de pessoas e economia para as empresas, também significa uma grande vantagem para o meio ambiente, uma vez que diminui a poluição dos solos e rios. Dessa maneira possibilitamos o maior aproveitamento do resíduo, que antes era descartado e como consequência do seu não aproveitamento aumentaria a quantidade de lixo causando grandes problemas ambientais.
 
-<h1 align="center">
+Pensando nisso, nós desenvolvemos o Ecoleta, uma aplicação para fazer a ponte entre os pontos de coletas e as pessoas.
+
+<p align="center">
     <img alt="Example" title="Example" src="./assets/ecoleta-web.png"  height="400px" />
     <img alt="Example" title="Example" src="./assets/ecoleta-mobile.png"  height="400px" />
-</h1>
+</p>
 
 ## Tecnologias
 
@@ -59,91 +61,87 @@ This project was developed with the following technologies:
 - [React Native][rn]
 - [Expo][expo]
 
-## 🔖 Layout
+## Layout
 
-Confira o layout utilizado disponível em [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
+Confira o layout no [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
 
-## :information_source: Como usar
+## Como usar
 
-Para clonar e executar esta aplicação, você vai percisar ter instalado no seu computador o [Git](https://git-scm.com), [Node.js][nodejs].
+Para clonar e executar esta aplicação, você vai percisar do [Git](https://git-scm.com) e do [Node.js][nodejs] instalado no seu computador.
+
+### Clonando o Projeto
+```bash
+# Clonar deste repositório
+$ git clone https://github.com/joel-fragoso/nlw-01.git
+```
 
 ### Instalando o Server
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/joel-fragoso/nlw-01.git
-
-# Go into the repository
+# Entre na pasta do projeto
 $ cd nlw-01/server/
 
-# Install dependencies
+# Instale as dependências
 $ npm run install
 
-# Run Migrates
+# Execute as migrations
 $ npm run knex:migrate
 
-# Run Seeds
+# Execute os seeds
 $ npm run knex:seed
 
-# Start server
+# Execute o projeto
 $ npm run dev
 
-# running on port 3333
+# O Servidor vai executar na porta 3333
 ```
 
 ### Instalando o Front-end
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/joel-fragoso/nlw-01.git
-
-# Go into the repository
+# Entre na pasta do projeto
 $ cd nlw-01/web/
 
-# Install dependencies
+# Instale as dependências
 $ npm install
 
-# Run
+# Execute o projeto
 $ npm start
 
-# running on port 3000
+# O Front-end vai executar na porta 3000
 ```
 
 ### Instalando o Mobile
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/joel-fragoso/nlw-01.git
-
-# Go into the repository
+# Entre na pasta do projeto
 $ cd nlw-01/mobile/
 
-# Install dependencies
+# Instale as dependências
 $ expo install
 
-# Run
+# Execute o projeto
 $ expo start
 
-# Expo will open, just scan the qrcode on terminal or expo page
+# O Expo vai abrir o Dev Tools no browser.
+# Para executar o projeto no seu dispositivo, é só scanear
+# o qrcode do browser ou do terminal.
 
-# If some problem with fonts, execute:
+# Se tiver algum problema com as fontes, execute:
 $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
-
 ```
 
-## :memo: Licença
+## Licença
 
-This project is under the MIT license. See the [LICENSE](https://github.com/joel-fragoso/nlw-01/blob/master/LICENSE) for details.
+Este projeto está sobre a licença do MIT. Para mais informações, veja aqui [LICENSE](https://github.com/joel-fragoso/nlw-01/blob/master/LICENSE).
 
-
-Feito com ♥ por Joel Fragoso
+Feito por Joel Fragoso
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
 [expo]: https://expo.io/
 [reactjs]: https://reactjs.org
 [rn]: https://facebook.github.io/react-native/
-[yarn]: https://yarnpkg.com/
 [vs]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
