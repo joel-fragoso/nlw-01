@@ -24,7 +24,7 @@ const Home = () => {
 
   useEffect(() => {
     axios.get<IBGEUFSResponse[]>(
-      'https://servicodados.ibge.gov.br/api/v1/localidades/estados'
+      'https://servicodados.ibge.gov.br/api/v1/localidades/estados?orderBy=nome'
     ).then(res => {
       const ufsInitials = res.data.map(uf => uf.sigla);
       setUfs(ufsInitials);
@@ -33,7 +33,7 @@ const Home = () => {
 
   useEffect(() => {
     axios.get<IBGECitiesResponse[]>(
-      `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${selectedUf}/municipios`
+      `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${selectedUf}/municipios?orderBy=nome`
     ).then(res => {
       const cityNames = res.data.map(city => city.nome);
       setCities(cityNames);
