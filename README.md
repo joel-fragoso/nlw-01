@@ -6,25 +6,22 @@
 	:construction: NextLevelWeek 1.0 🚀 In progress.. :construction:
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanielObara/NLW-1.0?color=%2304D361">
+  <img alt="GitHub language count" src="https://github.com/joel-fragoso/nlw-01.git">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DanielObara/NLW-1.0">
+  <img alt="Repository size" src="hhttps://github.com/joel-fragoso/nlw-01.git">
 	
-  <a href="https://www.linkedin.com/in/danielobara/">
-    <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-DanielObara-%2304D361">
+
+  <a href="https://github.com/joel-fragoso/nlw-01.git">
+    <img alt="GitHub last commit" src="https://github.com/joel-fragoso/nlw-01.git">
   </a>
 
-  <a href="https://github.com/DanielObara/NLW-1.0/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DanielObara/NLW-1.0">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/DanielObara/NLW-1.0/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/DanielObara/NLW-1.0?style=social">
+  <img alt="License" src="https://github.com/joel-fragoso/nlw-01.gitn">
+   <a href="hhttps://github.com/joel-fragoso/nlw-01.git">
+    <img alt="Stargazers" src="https://github.com/joel-fragoso/nlw-01.git">
   </a>
 </p>
 <p align="center">
-<a href="https://insomnia.rest/run/?label=NLW%201.0%20Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2FDanielObara%2FNLW-1.0%2Fmaster%2Fbackend%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+<a href="https://github.com/joel-fragoso/nlw-01.git" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 <p align="center">
   <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -100,7 +97,7 @@ $ yarn dev
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/DanielObara/NLW-1.0
+$ git clone https://github.com/joel-fragoso/nlw-01.git
 
 # Go into the repository
 $ cd NLW-1.0/frontent
@@ -118,7 +115,7 @@ $ yarn start
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/DanielObara/NLW-1.0
+$ git clone https://github.com/joel-fragoso/nlw-01.git
 
 # Go into the repository
 $ cd NLW-1.0/mobile
@@ -150,7 +147,7 @@ After merging your receipt request to done, you can delete a branch from yours.
 This project is under the MIT license. See the [LICENSE](https://github.com/DanielObara/NLW-1.0/blob/master/LICENSE) for details.
 
 
-Made with ♥ by Daniel Obara :wave: [Get in touch!](https://www.linkedin.com/in/danielobara/)
+Made with ♥ by Joel Fragoso :wave: [Get in touch!](https://github.com/joel-fragoso/nlw-01.git)
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
