@@ -1,10 +1,9 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/logo.svg" width="250px" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/logo.svg" width="160px" />
 </h1>
 
-<h4 align="center"> 
-	:construction: NextLevelWeek 1.0 🚀 In progress.. :construction:
-</h4>
+<h3 align="center">Next Level Week #1</h3>
+
 <p align="center">
   <img alt="GitHub language count" src="https://github.com/joel-fragoso/nlw-01.git">
 
@@ -16,24 +15,24 @@
   </a>
 
   <img alt="License" src="https://github.com/joel-fragoso/nlw-01.gitn">
-   <a href="hhttps://github.com/joel-fragoso/nlw-01.git">
+   <a href="https://github.com/joel-fragoso/nlw-01.git">
     <img alt="Stargazers" src="https://github.com/joel-fragoso/nlw-01.git">
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/joel-fragoso/nlw-01.git" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://github.com/joel-fragoso/nlw-01.git" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
+
 <p align="center">
   <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-Technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-use">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">Licença</a>
+  <a href="#-license">Licença</a>
 </p>
 
-## :information_source: O que é o Next Level Week?
+## O que é o Next Level Week?
 
 O NLW é uma semana prática com muito código, desafios, networking e um único objetivo: te levar para o próximo nível.
 
@@ -41,18 +40,16 @@ Através do nosso método você vai aprender novas ferramentas, conhecer nova
 
 Um evento online e totalmente gratuito que vai te ajudar a dar o próximo passo na sua evolução como dev.
 
-## 💻 Projeto
+## Projeto
 
-Ecoleta is a project developed based on international environment week. 
-That aims to connect people to companies that collect specific waste such as light bulbs, batteries, cooking oil, etc.
+Ecoleta
 
 <h1 align="center">
     <img alt="Example" title="Example" src="./assets/ecoleta-web.png"  height="400px" />
     <img alt="Example" title="Example" src="./assets/ecoleta-mobile.png"  height="400px" />
 </h1>
 
-
-## :rocket: Technologies
+## Tecnologias
 
 This project was developed with the following technologies:
 
@@ -64,70 +61,68 @@ This project was developed with the following technologies:
 
 ## 🔖 Layout
 
-To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
+Confira o layout utilizado disponível em [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
 
-## :information_source: How To Use
+## :information_source: Como usar
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
+Para clonar e executar esta aplicação, você vai percisar ter instalado no seu computador o [Git](https://git-scm.com), [Node.js][nodejs].
 
-From your command line:
-
-### Install API 
+### Instalando o Server
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/joel-fragoso/nlw-01.git
 
 # Go into the repository
-$ cd NLW-1.0/backend
+$ cd nlw-01/server/
 
 # Install dependencies
-$ yarn install
+$ npm run install
 
 # Run Migrates
-$ yarn knex:migrate
+$ npm run knex:migrate
 
 # Run Seeds
-$ yarn knex:seed
+$ npm run knex:seed
 
 # Start server
-$ yarn dev
+$ npm run dev
 
 # running on port 3333
 ```
 
-### Install Front-end
+### Instalando o Front-end
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/joel-fragoso/nlw-01.git
 
 # Go into the repository
-$ cd NLW-1.0/frontent
+$ cd nlw-01/web/
 
 # Install dependencies
-$ yarn install
+$ npm install
 
 # Run
-$ yarn start
+$ npm start
 
 # running on port 3000
 ```
 
-### Install Mobile
+### Instalando o Mobile
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/joel-fragoso/nlw-01.git
 
 # Go into the repository
-$ cd NLW-1.0/mobile
+$ cd nlw-01/mobile/
 
 # Install dependencies
-$ yarn install
+$ expo install
 
 # Run
-$ yarn start
+$ expo start
 
 # Expo will open, just scan the qrcode on terminal or expo page
 
@@ -136,21 +131,12 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
 ```
 
-## 🤔 How to contribute
+## :memo: Licença
 
-- Make a fork;
-- Create a branck with your feature: `git checkout -b my-feature`;
-- Commit changes: `git commit -m 'feat: My new feature'`;
-- Make a push to your branch: `git push origin my-feature`.
-
-After merging your receipt request to done, you can delete a branch from yours.
-
-## :memo: License
-
-This project is under the MIT license. See the [LICENSE](https://github.com/DanielObara/NLW-1.0/blob/master/LICENSE) for details.
+This project is under the MIT license. See the [LICENSE](https://github.com/joel-fragoso/nlw-01/blob/master/LICENSE) for details.
 
 
-Made with ♥ by Joel Fragoso :wave: [Get in touch!](https://github.com/joel-fragoso/nlw-01.git)
+Feito com ♥ por Joel Fragoso
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
