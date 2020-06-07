@@ -130,9 +130,10 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
 ## Licença
 
-Este projeto está sobre a licença do MIT. Para mais informações, veja aqui [LICENSE](https://github.com/joel-fragoso/nlw-01/blob/master/LICENSE).
+Este projeto está sobre a licença do MIT.
+Clique aqui [LICENSE](https://github.com/joel-fragoso/nlw-01/blob/master/LICENSE) para mais informações.
 
-Feito por Joel Fragoso
+Feito por Joel Fragoso.
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
