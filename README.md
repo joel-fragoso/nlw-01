@@ -5,30 +5,27 @@
 <h3 align="center">Next Level Week #01</h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://github.com/joel-fragoso/nlw-01.git">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/joel-fragoso/nlw-01?color=%2304D361">
 
-  <img alt="Repository size" src="hhttps://github.com/joel-fragoso/nlw-01.git">
-	
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/joel-fragoso/nlw-01">
 
-  <a href="https://github.com/joel-fragoso/nlw-01.git">
-    <img alt="GitHub last commit" src="https://github.com/joel-fragoso/nlw-01.git">
+  <a href="https://github.com/joel-fragoso/nlw-01/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/joel-fragoso/nlw-01">
   </a>
 
-  <img alt="License" src="https://github.com/joel-fragoso/nlw-01.gitn">
-   <a href="https://github.com/joel-fragoso/nlw-01.git">
-    <img alt="Stargazers" src="https://github.com/joel-fragoso/nlw-01.git">
-  </a>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
+
 <p align="center">
   <a href="https://github.com/joel-fragoso/nlw-01.git" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 <p align="center">
-  <a href="#o-que-é-o-next-level-week">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#o-que-é-o-next-level-week">Next Level Week</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#como-usar">Como usar</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#licença">Licença</a>
 </p>
 
