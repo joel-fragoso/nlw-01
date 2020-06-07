@@ -1,6 +1,6 @@
-<h1 align="center">
+<p align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/logo.svg" width="160px" />
-</h1>
+</p>
 
 <h3 align="center">Next Level Week #1</h3>
 
